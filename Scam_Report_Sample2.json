@@ -1,0 +1,30 @@
+{
+    "original_message": "URGENT! Your SBI bank account will be blocked today due to incomplete KYC verification. Click https://sbi-update.example.com and enter your account number, ATM PIN and OTP immediately to avoid account suspension.",
+    "detected_links": [
+        "https://sbi-update.example.com"
+    ],
+    "investigation": {
+        "risk_level": "High Concern",
+        "message_type": "Likely message category",
+        "summary": "The message warns of account suspension and demands immediate action, potentially involving sensitive information like account number, PIN, and OTP, all linked to a potentially fraudulent SBI bank.",
+        "warning_signs": [
+            {
+                "evidence": "SBI Bank Account Block Notification",
+                "reason": "SBI is a major bank, and this notification is a significant red flag."
+            },
+            {
+                "evidence": "URL: https://sbi-update.example.com",
+                "reason": "This URL is highly suspicious – it’s likely a phishing site designed to steal credentials."
+            },
+            {
+                "evidence": "Urgent Tone",
+                "reason": "The use of 'URGENT!' creates a sense of urgency, which is a common tactic used in phishing attacks."
+            },
+            {
+                "evidence": "Request for Sensitive Information",
+                "reason": "The message explicitly asks for account number, ATM PIN, and OTP – these are all critical data points for a scam."
+            }
+        ],
+        "empty_list": true
+    }
+}

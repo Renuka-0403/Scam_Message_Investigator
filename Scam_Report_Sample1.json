@@ -1,0 +1,28 @@
+{
+    "original_message": "Congratulations! You have been selected for a work-from-home job. Earn Rs. 5000 every day by working just 2 hours. Pay a registration fee of Rs. 999 to activate your employee account. Limited vacancies available. Apply immediately!",
+    "detected_links": [],
+    "investigation": {
+        "risk_level": "Medium Concern",
+        "message_type": "Likely message category",
+        "summary": "The message offers a work-from-home job with a potential income, but it requires a registration fee and mentions limited vacancies, raising potential for a scam.",
+        "warning_signs": [
+            {
+                "evidence": "Specific offer of money (Rs. 5000)",
+                "reason": "Offers of substantial financial rewards are a common tactic in scams."
+            },
+            {
+                "evidence": "Request for registration fee (Rs. 999)",
+                "reason": "Fees are often used to collect personal information or initiate transactions."
+            },
+            {
+                "evidence": "Limited vacancies",
+                "reason": "Creates a sense of urgency and pressure to act quickly."
+            },
+            {
+                "evidence": "Generic greeting ('Congratulations')",
+                "reason": "Can be a sign of a phishing attempt."
+            }
+        ],
+        "notes": "This message is potentially fraudulent due to the combination of a potential reward and the requirement for a fee.  It's important to be cautious."
+    }
+}
